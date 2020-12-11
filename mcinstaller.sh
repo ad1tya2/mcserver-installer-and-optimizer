@@ -5,6 +5,7 @@ pip install clint
 pip install requests
 rm -r ./workdir
 mkdir ./workdir
+mkdir ./zips
 python3 start.py
 echo "Do you want use optimized configs? (y/n)"
 read opt 
@@ -38,12 +39,15 @@ else
 	echo ""
 
 	
-echo "Where do you want to store the files? If your folder does not exist it will be created automatically! Please enter the directory \n Or Just press enter to save it as a zip in the downloads section of the folder"
+echo "Where do you want to store the files? If your folder does not exist it will be created automatically! Please enter the directory \n Or Just press enter to save it as a zip in the zips section of the folder"
 read xyz
 if ["$xyz" = ""]; then
 	echo "Your server files will be saved in a zip!\n Please enter the name of the zip file you want!"
     read name
 	echo "storing files to $name"
+	zip -r ./zips/$name ./workdir
+	echo "Done!"
+	
 else
 	echo "storing the files to $xyz"
 	mv ./workdir/* $xyz
