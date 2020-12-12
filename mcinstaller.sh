@@ -1,6 +1,8 @@
 #!/bin/bash
+{
 rm -r ./workdir
 mkdir ./workdir
+} &> /dev/null
 python3 start.py
 echo "Do you want use optimized configs? (y/n)"
 read opt 
