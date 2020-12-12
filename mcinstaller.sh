@@ -50,4 +50,4 @@ else
 	mkdir $xyz
 	mv ./workdir/* $xyz
 fi
-echo "Done! Please reccomend my github repository to others also!"
+echo -e "Done! Please reccomend my github repository to others also! And follow Me!\nMade By - ad1tya2"
