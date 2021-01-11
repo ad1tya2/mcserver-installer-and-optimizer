@@ -14,6 +14,7 @@ then
 	cp ./files/spigot.yml ./workdir/
 	cp ./files/paper.yml ./workdir/
 	cp ./files/server.properties ./workdir/
+	cp ./files/eula.txt ./workdir/
 else
 	echo "Not copying optimized Defaults!"
 	cp ./files/serverpropertiesunoptimized.txt ./workdir/server.properties
