@@ -31,6 +31,7 @@ read asd
 if [ "$asd" = "y" ] || [ "$asd" = "Y" ]; then
 	cp ./files/start.sh ./workdir/
 	chmod +x ./workdir/start.sh
+	sed -i -e 's/\r$//' ./workdir/start.sh
 	echo -e "What do you want to name your server?(For your convenience only!)"
 	read servername
 	echo -e "How much ram do you want to alloechoe to your server,\n For eg: 5G or 5000M"
