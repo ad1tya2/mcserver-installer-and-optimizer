@@ -1,7 +1,8 @@
 #!/bin/bash
 echo Installing requirements!
-{sudo yum install python3 -y
-sudo yum install zip -y
+{yum install python3 -y
+yum install zip -y
+yum install git -y
 pip install clint
 pip install requests
 } &> /dev/null
