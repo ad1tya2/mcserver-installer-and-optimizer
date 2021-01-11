@@ -1,6 +1,8 @@
 #!/bin/bash
 echo Installing requirements!
-{yum install python3 -y
+{yum install epel-release -y
+yum install python3 -y
+yum install python-pip -y
 yum install zip -y
 yum install git -y
 pip install clint
