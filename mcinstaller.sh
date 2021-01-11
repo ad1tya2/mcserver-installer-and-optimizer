@@ -47,7 +47,9 @@ if [ "$xyz" = "" ]; then
 	echo -e "Your server files will be saved in a zip!\n Please enter the name of the zip file you want!"
     read name
 	echo "storing files to $name"
-	zip -r ./zips/$name ./workdir/*
+	mv ./workdir ./serverfiles
+	zip -r ./zips/$name ./serverfiles/*
+	rm -r ./serverfiles
 else
 	echo "storing the files to $xyz"
 	mkdir $xyz
