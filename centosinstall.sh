@@ -1,12 +1,7 @@
 #!/bin/bash
 echo Installing requirements!
-yum install epel-release -y
-yum install python3 -y
-yum install python-pip -y
-yum install zip -y
-yum install git -y
-pip install clint
-pip install requests
+yum install epel-release zip python3 python-pip git -y
+pip install clint requests
 git clone https://github.com/ad1tya2/mcserver-installer-and-optimizer.git
 mv ./mcserver-installer-and-optimizer/* ./
 rm -r mcserver-installer-and-optimizer
