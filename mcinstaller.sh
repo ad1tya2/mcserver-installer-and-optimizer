@@ -2,6 +2,7 @@
 {
 rm -r ./workdir
 mkdir ./workdir
+mdkir -p ./zips
 } &> /dev/null
 python3 start.py
 echo "Do you want use optimized configs? (y/n)"
