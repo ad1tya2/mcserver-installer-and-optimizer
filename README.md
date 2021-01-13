@@ -1,6 +1,6 @@
 # minecraft-paperspigot-auto-installer-and-optimizer
 This is a script that auto downloads paper servers and optimizes it for you!</br>
-You Have to run this as root!
+You Have to run the one time installer as root!
 
 Note : This just generates the files for the server! It dosent "install" the minecraft server to your root directory per se
 <br />
