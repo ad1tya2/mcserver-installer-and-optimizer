@@ -14,3 +14,7 @@ cd into the folder</br>
 cd minecraft-paperspigot-auto-installer-and-optimizer
 </br>
 now run - ./mcinstaller.sh
+# FOR WINDOWS!
+1. Clone the repo or download it as a zip file
+2. Double click on the firstrun.bat file inside the folder for the first time using it
+3. After that you have to use mcinstaller.bat to generate the files!
