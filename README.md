@@ -15,9 +15,9 @@ First make a directory where you want to store the program, then cd into the dir
 bash <(curl -sSL https://raw.githubusercontent.com/ad1tya2/mcserver-installer-and-optimizer/main/centosinstall.sh)
 # usage
 cd into the folder</br>
-cd minecraft-paperspigot-auto-installer-and-optimizer
+`cd mcserver-installer-and-optimizer`
 </br>
-now run - ./mcinstaller.sh
+now run - `./mcinstaller.sh`
 # Readme for Windows
 You need to install the dependencies i.e python3 + pip to run this generator and 
 java also if you want to run your server on the same machine
