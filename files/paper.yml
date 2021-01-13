@@ -6,7 +6,7 @@ settings:
   enable-player-collisions: true
   chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: false
-  bungee-online-mode: true
+  bungee-online-mode: false
   suggest-player-names-when-null-tab-completions: true
   region-file-cache-size: 256
   incoming-packet-spam-threshold: 300
@@ -106,7 +106,7 @@ world-settings:
     per-player-mob-spawns: true
     anti-xray:
       enabled: true
-      engine-mode: 2
+      engine-mode: 1
       chunk-edge-mode: 2
       max-chunk-section-index: 3
       update-radius: 2
