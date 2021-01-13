@@ -27,8 +27,6 @@ messages:
   server-full: "§0  \n§0  \n§0 §c§lSERVER IS FULL\n§0\n§fThe Server you're trying\
     \ to connect\n§fto is full! Please try again later.\n§0\n§d  \
     \  "
-  outdated-client: "Please use 1.15.2 to join"
-  outdated-server: "Please use 1.15.2 to join"
   restart: "§0  \n§0  \n§0 §c§lSERVER RESTART\n§0\n§fThe server is currently restarting.\n\
     §fPlease be patient for a moment!"
 commands:
@@ -65,17 +63,6 @@ world-settings:
     hopper-amount: 32
     max-tnt-per-tick: 25
     dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-endcity: 10387313
-    seed-slime: 987234911
     mob-spawn-range: 6
     max-entity-collisions: 8
     merge-radius:
