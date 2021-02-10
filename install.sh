@@ -1,6 +1,7 @@
 #!/bin/bash
 echo Installing requirements!
-{sudo apt install python3 zip openjdk-8-jre-headless -y
+{
+sudo apt install python3 zip openjdk-8-jre-headless -y
 pip3 install clint requests
 } &> /dev/null
 git clone https://github.com/ad1tya2/mcserver-installer-and-optimizer.git
