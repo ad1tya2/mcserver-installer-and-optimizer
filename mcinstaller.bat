@@ -21,5 +21,5 @@ echo pause>>.\workdir\run.bat
 echo Storing your files to the generatedfiles directory inside this folder!
 echo Just double click the bat file to run the server!
 echo Next time you run this program the generatedfiles will be deleted! So store it somewhere safe!
-move workdir\* generatedfiles\* > nul
+move workdir\* generatedfiles
 pause
