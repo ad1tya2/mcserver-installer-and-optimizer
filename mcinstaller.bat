@@ -3,6 +3,7 @@ DEL .\workdir /Q
 DEL .\generatedfiles /Q
 rmdir .\workdir
 mkdir .\workdir
+mkdir .\generatedfiles
 py start.py
 (
 copy .\files\bukkit.yml .\workdir\
